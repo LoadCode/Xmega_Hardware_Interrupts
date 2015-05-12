@@ -33,7 +33,8 @@ int main(void)
     }
 }
 
-ISR(PORTC_INT0_vect) //ISR for the interrupt0 in PORTE
+ISR(PORTC_INT0_vect) //ISR for the interrupt0 in PORTC
 {
 	PORTA.OUTTGL = 0x01;
+	//PORTC.INTFLAGS = PORT_INT0IF_bm; //clears the interrupt 0 flag for debounce case
 }
