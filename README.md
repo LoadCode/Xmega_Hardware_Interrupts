@@ -1,2 +1,2 @@
 # Xmega_Hardware_Interrupts
-Code Snippet for set interrupts on pins of xmega microcontroller
+Code Snippet for setup interrupts on pins of xmega microcontroller
