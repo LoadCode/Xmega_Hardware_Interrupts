@@ -1,0 +1,15 @@
+#No incluir el archivo de solución de Atmel ni el de proyecto
+*.atsln
+*.cproj
+*.atsuo
+
+#no incluir los archivos de compilación
+*.mk
+*.d
+*.eep
+*.elf
+*.lss
+*.map
+*.o
+*.srec
+Makefile
